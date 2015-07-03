@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Promise</title>
+  </head>
+
+  <body ng-app="app">
+    <div ng-controller="SampleCtrl">
+      <div style="border: solid 1px black;">
+        <button ng-click="test2()">Click me</button>
+        <br />
+        <input type="checkbox" ng-model="fail2" />Fail <br />
+        Status: {{status2}}
+      </div>
+    </div>
+    <div ng-controller='TestCtrl'>
+      <div style="border: solid 1px black;">
+        <button ng-click="loadData()">Load Data</button><br />
+      </div>
+    </div>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+</html>
